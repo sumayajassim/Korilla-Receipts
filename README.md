@@ -7,7 +7,7 @@ happy every year.
 
 Their CEO is thinking of updating their short order tracking system using React.
 
-Build a prototype of this short order receipts tracker.
+Build a prototype of this short order receipts tracker and create a form to add new receipts.
 
 ## Prerequisites
 
@@ -96,7 +96,22 @@ take a look at class names in the various css files.
 
 ![korilla receipts rendered Mark](https://i.imgur.com/27V4KW8.png)
 
-## Part 2: Conditionally render the receipts
+## Part 2: Create a form to add a new receipt
+
+Create a form for the user to type in new receipts, and include the following fields:
+
+  - person
+  - order
+    - main
+    - protein
+    - rice
+    - sauce
+    - drink
+    - cost
+
+  Once the user submits the form, a new receipt should be added
+
+## Part 3: Conditionally render the receipts
 
 Right now, all the receipts are not paid.
 
@@ -106,13 +121,13 @@ has not been paid.
 Then go into the receipt data and change a paid value to true, then verify that
 the receipt disappears.
 
-## Part 3: Add a click handler to update the data
+## Part 4: Add a click handler to update the data
 
 Obviously we don't want to have to manually update the data to show that it is paid. Make a function that updates the paid property in state to be true when the receipt is clicked.
 
 ## Bonus
 
-## Part 4: Searching for receipts
+## Part 5: Searching for receipts
 
 Implement a search field that allows you to search by person. The search should
 automatically update as you type, hiding every receipt that doesn't match the
