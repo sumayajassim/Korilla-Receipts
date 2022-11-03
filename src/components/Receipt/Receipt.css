@@ -1,0 +1,16 @@
+.receipt-container{
+    border: 1px solid red;
+    margin: 30px;
+    padding: 10px 20px;
+    width: 250px;
+}
+
+.label-text{
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.label-container{
+    display: block;
+    margin: 15px;
+}
